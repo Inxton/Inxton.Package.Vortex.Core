@@ -8,7 +8,7 @@ Each twin object implements two types of interfaces  *IOnline* interface which e
 There is a separate class *Plainer* that is produced during the trans-piling process which is light (POCO like) representation of the same data structure, that can be is used in scenarios involving serialization.
 
 ## Compiler
-![tc3toInxton](../../assets/PrimitiveTwin.png)
+![tc3toInxton](../../assets/TwinObjectDetail.png)
 Compiler supports PLC program structures of following POU types:
 
 * [PROGRAM (PRG)](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_plc_intro/9007201785015179.html&id=930767890005286929)
@@ -39,7 +39,7 @@ Read more about the nature of TwinCAT 3 variable types and special variables is 
 During the process of compilation, several partial classes and interfaces are being created. Each of the objects serves a specific purpose and its members are with a different relationship to PLC object.
 Having a Function block named FbPiston created at PLC side. The result of the compiler's effort is Onliner and Plain classes plus Online and Shadow interfaces. Please carefully analyze the sample below.
 
-![TwinObjectDetail](../../assets/TwinObjectDetail.png)
+![TwinObjectDetail](../../assets/onliner-shadow-plain.png)
 
 **PLC code**
 ~~~ PASCAL
