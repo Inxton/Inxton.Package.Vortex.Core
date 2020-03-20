@@ -31,13 +31,13 @@ Each elementary/primitive/base type is represented by a twin wrapper object that
 
 ## Cyclic access
 
-**Cyclic access** allows for fast low performance cost two way access to the PLC variables. Cyclic values are being read and written in a optimized periodic loop. The controller twin object contains entire PLC program, it does not discriminate between the variables and object that are used by the consumer and those that are not. However the Inxton Cyclic values are accessed via communication interface only after they are accessed for the first time by the consumer program. Once a Primitive Twin is accessed via its Cyclic property it is queued for the cyclic reading.
+**Cyclic access** allows for fast, low performance cost, two way access to the PLC variables. Cyclic values are being read and written in an optimized periodic loop. The controller twin object contains entire PLC program, it does not discriminate between the variables and object that are used by the consumer and those that are not. However the Inxton Cyclic values are accessed via communication interface only after they are accessed for the first time by the consumer program. Once a Primitive Twin is accessed via its Cyclic property it is queued for the cyclic reading.
 
 Primitive Twins implement notification change when the cyclic property changes (INotifyPropertyChanged). This feature is particularly useful for visualization scenarios in presentation frameworks that support data binding with change notification (WPF, in limited ways WinForm).
 
 Cyclic access may result in degraded performance when the cyclic loop contains too many cyclically accessed primitive twins. This is however true for very large programs, it those scenarios a combination of cyclic and batched access should be used.
 
-Primitive twin is access via its *Cyclic* property
+Primitive twin is accessed via its *Cyclic* property
 
 ~~~ C#
 // Cyclic Read
@@ -200,7 +200,7 @@ When the application tries to write to the variable it first validates that the 
 
 ### AttributeToolTip
 
-AttributeToolTip allows you to describe the variable or an object. These can be then used to give short hints for the user in the application. This attribute is can be localized.
+AttributeToolTip allows you to describe the variable or an object. These can be then used to give short hints for the user in the application. This attribute can be localized.
 
 ~~~
 {attribute addProperty ToolTip "Value indicates the length of product."}
