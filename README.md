@@ -30,7 +30,7 @@ Easy installation steps:
 
 ## Installation
 
-Checkout the installation procedure as easy instruction video [here](../INSTALLATION.MD)
+Checkout the installation procedure as easy instruction video [here](INSTALLATION.MD)
 
 ## Getting started
 There are few options how to get started with Inxton. Poject can be created from scratch so you will discover all bells and whistles or you can simply grab one of our examples and enter into Inxton world more easier way.
