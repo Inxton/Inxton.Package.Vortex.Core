@@ -1,6 +1,6 @@
 # Inxton.vortex.compiler.console
 
-Inxton.vortex.compiler.console(compiler) is a CLI implementation of Inxton.Vortex.Compiler that trans-piles TwinCat 3 PLC's program data into C# classes making the PLC's data accessible to .net environment in a structured way.
+Inxton.vortex.compiler.console(compiler) is a Command line interface (CLI) implementation of Inxton.Vortex.Compiler that trans-piles TwinCat 3 PLC's program data into C# classes making the PLC's data accessible to .net environment in a structured way.
 
 ## Compiler
 
