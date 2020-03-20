@@ -14,11 +14,11 @@ Here we are coming with the results. We will progressively release several packa
 
 ## Licencing
 
- More information about support, licencing and pricing shall be available [here](https://www.inxton.com/). The bottom line is that you can use a developer license free of charge. There are no limits to developer licence except that it must not be deployed in the production environment and the run of the application is limited to a period of 30-120 minutes after which the application terminates and must be restarted. The application under development license can be used for testing until deployed to production.
+ More information about support, licensing and pricing shall be available [here](https://www.inxton.com/). The bottom line is that you can use a developer license free of charge. There are no limits to developer license except that it must not be deployed in the production environment and the run of the application is limited to a period of 30-120 minutes after which the application terminates and must be restarted. The application under development license can be used for testing until deployed to production.
 
 ### tldr
 
-> You are encouraged to use this project -  free of charge, although when you want to use it in the production environment you need to go to  [INXTON.com](https://www.inxton.com/) and purchase a licence.
+> You are encouraged to use this project -  free of charge, although when you want to use it in the production environment you need to go to  [INXTON.com](https://www.inxton.com/) and purchase a license.
 
 
 ## Note to preview versions
