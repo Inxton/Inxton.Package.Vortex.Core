@@ -1,59 +1,50 @@
-![Inxton logo](./assets/logo.png)
+# Inxton.Package.Vortex.Core
+Inxton.Package.Vortex.Core (Core) provides foundational tools and libraries for creating industrial applications in [Inxton.Vortex.Framework](https://github.com/Inxton/Inxton.Vortex.Framework).
+![tc3 to inxton to your_app to future](assets/tc3-inxton-future.png)
 
-# Inxton.Vortex.Framework
+## What's inside *Inxton.Package.Vortex.Core* package
+Core package consists of several crucial components, these provide solid foundation for [Inxton.Vortex.Framework](https://github.com/Inxton/Inxton.Vortex.Framework).
+- Compiler/Builder [Inxton.vortex.compiler.console](Inxton.vortex.compiler.console/README.md)
+- Communication libraries [Inxton.Vortex.Connector](Inxton.Vortex.Connector/README.MD)
 
-*Inxton.Vortex.Framework* is a set of tools and libraries that allow for the fast development of industrial applications involving Beckhoff PLC's. You can combine the power of deterministic behavior of the PLC with the wealth of possibilities offered by the .net ecosystem.
+In few sentences, Compiler parses your TwinCAT 3 project and converts it into Connector project. Connector will provides you access to your PLC project from Inxton application via Communication libraries. 
 
-## Tiny bit of history
+## Pre-Requisites
 
-Inxton.Vortex.Framework is the result of about a decade of development inside a machine-building company [MTS](https://mts.sk/en). 
+Inxton is heavy lifting tool without having extreme requirements.
+Before you start building your fist app please make sure you meet all pre-requisites listed bellow. If you are missing any of pre-requisites please install them in elisted order. All neccessary tools are free and enlisted with relevant redirects to download locations .
 
-This framework was initially used as an internal tool. It allowed us to develop the industrial applications way faster than we were able to do before. At the same time, we could deliver features in our applications that were unachievable with current technologies.   There was an increasing demand from our customers as well as from the other machine builders to provide them with this tooling. We decided some time ago to refactor, rewrite, document and optimize the libraries and tooling so that you all can benefit from our decade long effort to bring PLC world closer to the .net ecosystem. We have also established a team that will continue to develop and support the developers. 
+Feel free to check our short installation video guide [here](PREREQUISITES.MD).
 
-Here we are coming with the results. We will progressively release several packages with tons of useful tools and features.
+## Installing licence
 
-## Licencing
+To run your Inxton application you need to have valid licence. Preview licence file is provided completly free of charge. 
+It's simple, just grab it by following these steps. 
 
- More information about support, licensing and pricing shall be available [here](https://www.inxton.com/). The bottom line is that you can use a developer license free of charge. There are no limits to developer license except that it must not be deployed in the production environment and the run of the application is limited to a period of 30-120 minutes after which the application terminates and must be restarted. The application under development license can be used for testing until deployed to production.
+Easy installation steps:
+1. Dowload **Licence.xml** file from github environment [here](http://bit.ly/future_of_automation) or as raw format [here](https://bit.ly/2w8nFbT).
+2. Don't forget to save licence as **.xml** file.
+3. Copy/Move licence into **'C:\Inxton\Licence.xml'** folder.
 
-### tldr
+> **Note:** *Preview licence is valid until 2020-SEPT-01. Don't worry, you should be fine, full release is comming out at July 2020.*
 
-> You are encouraged to use this project -  free of charge, although when you want to use it in the production environment you need to go to  [INXTON.com](https://www.inxton.com/) and purchase a license.
+## Installation
 
+Checkout the installation procedure as easy instruction video [here](../INSTALLATION.MD)
 
-## Note to preview versions
+## Getting started
+There are few options how to get started with Inxton. Poject can be created from scratch so you will discover all bells and whistles or you can simply grab one of our examples and enter into Inxton world more easier way.
+### Exploring examples
 
-The packages will be first released as preview versions. These versions are close to the final release. With previews we are just giving you the opportunity to start working with new versions, to comment and give us feedback before the final release. Preview versions are subject to change and from time to time those changes can break some of your existing code. You should not use preview versions in production, but you can start using them in development. For each preview version, we will indicate the date of the planned full release. Also, be aware that the preview version license will expire about the time the full release is issued.
+Easiest way to get started is to use the examples and templates from [this repository](https://github.com/Inxton/Examples-Inxton.Package.Vortex.Core/).
 
-## Available and upcoming packages
+### Creating new project
 
-- **[Inxton.Package.Vortex.Core](Inxton.Package.Vortex.Core/README.MD)** (available as preview [license](http://bit.ly/future_of_automation) valid until 2020-SEPT-01) (full release planned July 2020) (compiler, connectivity)
-- [Inxton.Package.Vortex.Essentials](https://www.inxton.com) (coming soon) (Core + automated UI generation)
-- [Inxton.Package.Vortex.Advanced](https://www.inxton.com) (coming soon) (Essentials + user security, PLC to .net RPC, etc)
-- [Inxton.Package.Vortex.Ultimate](https://www.inxton.com) (coming soon) (Advanced + coordination libraries for effective PLC task handling, CRUD PLC to Data Repositories, extensive user action logging, etc.)
-
-We will also publish some informal and instructional videos on [YouTube]( https://www.youtube.com/channel/UCB3EcnWyLSsV5gqSt8PRDXA).
-
-
-# Need help?
-
-🧪  Create an issue [here](https://github.com/Inxton/Feedback/issues/new/choose)
-
-📫  We use mail too team@inxton.com 
-
-🐤  Contact us on Twitter [@Inxton](https://twitter.com/inxtonteam)
-
-📽  Check out our [YouTube](https://www.youtube.com/channel/UCB3EcnWyLSsV5gqSt8PRDXA/featured)
-
-🌐  For more info check out our website [INXTON.com](https://www.inxton.com/)
+How to get started with new project see [here](../Inxton.vortex.compiler.console/README.md)
 
 
-# Contributing
+See also
 
-We are more than happy to hear your feedback, ideas!
-Just submit it [here](https://github.com/Inxton/Feedback/issues/new/choose)  
+* [Inxton.Vortex.Connector](Inxton.Vortex.Connector/README.MD)
+* [Inxton.Vortex.Compiler](Inxton.vortex.compiler.console/README.md)
 
-
----
-Developed with ♥ at [MTS](https://www.mts.sk/) - putting the heart into manufacturing.
- 
