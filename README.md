@@ -14,7 +14,7 @@ In few sentences, Compiler parses your TwinCAT 3 project and converts it into Co
 Inxton is heavy lifting tool without having extreme requirements.
 Before you start building your fist app please make sure you meet all pre-requisites listed bellow. If you are missing any of pre-requisites please install them in elisted order. All neccessary tools are free and enlisted with relevant redirects to download locations .
 
-Feel free to check our short installation video guide [here](PREREQUISITES.MD).
+You can watch short installation video instruction [here](PREREQUISITES.MD).
 
 ## Installing licence
 
