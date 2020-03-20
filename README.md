@@ -40,7 +40,7 @@ Easiest way to get started is to use the examples and templates from [this repos
 
 ### Creating new project
 
-How to get started with new project see [here](../Inxton.vortex.compiler.console/README.md)
+How to get started with new project see [here](Inxton.vortex.compiler.console/README.md)
 
 
 See also
