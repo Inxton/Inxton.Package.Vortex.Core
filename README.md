@@ -32,7 +32,12 @@ Easy installation steps:
 
 Checkout the installation procedure as easy instruction video [here](INSTALLATION.MD)
 
+## Important note to namespaces
+
+**Namespaces in Inxton.Vortex.Framework begin with ```Vortex``` and while NuGet packages are prefixed with ```Inxton```.**
+
 ## Getting started
+
 There are few options how to get started with Inxton. Poject can be created from scratch so you will discover all bells and whistles or you can simply grab one of our examples and enter into Inxton world more easier way.
 ### Exploring examples
 
