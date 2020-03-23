@@ -1,11 +1,14 @@
 # TwinController
 
-TwinController is the root object that represents the .net counterpart of the entire PLC program. It is the entry point to the PLC program variables. TwinController contains instances of all PRGs (Program objects) and GVLs (Global Variable Lists).
+TwinController is the root object that represents the .net counterpart of the entire PLC project. It is the entry point to the PLC program objects. TwinController contains instances of all PRGs (Program POU) and GVLs (Global Variable Lists).
 
-TwinController class is named [PlcName]TwinController.
+------------
+![tc3toInxton](../../assets/tc3-project_to_twin_controller.png)
+------------
+
+TwinController class is named by convention [PlcName]TwinController.
 
 TwinController exposes two special properties 'Online' and 'Shadow'. **Online** gives access only to online variables (direct access to PLC's values )and reduces the exposure of members that are not related to online access. **Shadow** gives access to shadow value holder with no direct access to PLC's values.
-
 
 ><strong style="color:orange">NOTE</strong>: 
 <span style="color:orange">
