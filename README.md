@@ -34,7 +34,7 @@ Checkout the installation procedure as easy instruction video [here](INSTALLATIO
 
 ## Important note to namespaces
 
-**Namespaces in Inxton.Vortex.Framework begin with ```Vortex``` and while NuGet packages are prefixed with ```Inxton```.**
+**Namespaces in Inxton.Vortex.Framework begin with ```Vortex``` while NuGet packages are prefixed with ```Inxton```.**
 
 ## Getting started
 
