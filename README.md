@@ -1,3 +1,5 @@
+![Inxton logo](https://github.com/Inxton/documentation/raw/master/assets/logo.png)
+
 # Inxton.Package.Vortex.Core
 Inxton.Package.Vortex.Core (Core) provides foundational tools and libraries for creating industrial applications in [Inxton.Vortex.Framework](https://github.com/Inxton/Inxton.Vortex.Framework).
 ![tc3 to inxton to your_app to future](assets/tc3-inxton-future.png)
