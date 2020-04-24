@@ -54,6 +54,6 @@ See also
 
 * [Inxton.Vortex.Connector](Inxton.Vortex.Connector/README.MD)
 * [Inxton.Vortex.Compiler](Inxton.vortex.compiler.console/README.md)
-* [Inxton.Essentials](https://github.com/Inxton/Inxton.Package.Vortex.Essential)
+* [Inxton.Essentials](https://github.com/Inxton/Inxton.Package.Vortex.Essentials)
 
 
