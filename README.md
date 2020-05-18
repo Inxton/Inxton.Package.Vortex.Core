@@ -1,6 +1,6 @@
 ![Inxton logo](./assets/logo.png)
 
-## Documentation previously contained in this repository has been moved [here](https://github.com/Inxton/documentation)
+## Documentation previously contained in this repository has been moved [here](https://github.com/Inxton/documentation/blob/master/Inxton.Package.Vortex.Core/README.md)
 
 ## 🌐  For more info check out our website [INXTON.com](https://www.inxton.com/)
 
